@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
+</head>
+
+<body onload="addTabFocus()">
+
+	<div id="image">
+		Survolez une image ci-dessous pour l'afficher ici.
+	</div>
+
+	<!-- 6 IMAGES avec alt + mouse + focus -->
+	<img class="preview"
+	     src="images/Arduino_Uno_-_R3.jpg"
+	     alt="Carte Arduino Uno"
+	     onmouseover="upDate(this)"
+	     onmouseout="unDo()"
+	     onfocus="upDate(this)"
+	     onblur="unDo()">
+
+	<img class="preview"
+	     src="images/esp32_devkitc.jpg"
+	     alt="Carte ESP32 DevKit"
+	     onmouseover="upDate(this)"
+	     onmouseout="unDo()"
+	     onfocus="upDate(this)"
+	     onblur="unDo()">
+
+	<img class="preview"
+	     src="images/Raspberry_Pi_Pico_oblique.jpg"
+	     alt="Raspberry Pi Pico"
+	     onmouseover="upDate(this)"
+	     onmouseout="unDo()"
+	     onfocus="upDate(this)"
+	     onblur="unDo()">
+
+	<img class="preview"
+	     src="images/Arduino_Mega.jpg"
+	     alt="Carte Arduino Mega"
+	     onmouseover="upDate(this)"
+	     onmouseout="unDo()"
+	     onfocus="upDate(this)"
+	     onblur="unDo()">
+
+	<img class="preview"
+	     src="images/nodemcu_esp32c2.jpg"
+	     alt="Carte NodeMCU ESP32"
+	     onmouseover="upDate(this)"
+	     onmouseout="unDo()"
+	     onfocus="upDate(this)"
+	     onblur="unDo()">
+
+	<img class="preview"
+	     src="images/Raspberry_Pi_4.jpg"
+	     alt="Carte Raspberry Pi 4"
+	     onmouseover="upDate(this)"
+	     onmouseout="unDo()"
+	     onfocus="upDate(this)"
+	     onblur="unDo()">
+
+	<footer>
+		<p>© August — Microcontrôleurs</p>
+	</footer>
+
+</body>
+</html>
